@@ -1,0 +1,167 @@
+.main-center {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media all and (max-width: 900px) {
+  .main-center {
+    flex-wrap: wrap;
+  }
+}
+body {
+  background-color: grey;
+}
+
+.main {
+  flex-grow: 2;
+}
+
+aside {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+#content {
+  background-color: #fff;
+  border: 1px solid black;
+  margin: 20px 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 200px;
+  padding: 20px 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+/* ---- H E A D E R ------ */
+.header h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.header p {
+  font-family: "Gill Sans", sans-serif;
+  clear: left;
+}
+
+h2.card__presentation {
+  margin-top: -20px;
+  color: darkred;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  border-radius: 100%;
+  max-height: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* ---- M A I N ------ */
+.main {
+  padding: 0 20px;
+}
+
+article > div:not(:last-child), ul.languages > li:not(:last-child) {
+  border-bottom: 2px dashed #c2c0c0;
+}
+
+article > h2 {
+  text-transform: uppercase;
+  color: #510402;
+  font-size: 2em;
+  font-family: "Oswald", sans-serif;
+  border-bottom: 2px solid gray;
+}
+article h3 {
+  font-weight: normal;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+article h4 {
+  font-weight: normal;
+  color: grey;
+  margin: -10px 0 0 0;
+  font-size: 0.8em;
+  font-family: Arial, sans-serif;
+}
+
+/*
+---------  A S I D E ------------
+*/
+ul.languages li, ul.tech li {
+  list-style-type: none;
+}
+
+ul.tech {
+  padding: 0 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+  justify-content: flex-start;
+}
+
+.tech li {
+  border: 1px solid grey;
+  margin: 5px 3px;
+  padding: 5px;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.tech li:hover {
+  background-color: #c2c0c0;
+}
+
+ul.languages {
+  padding: 0;
+}
+ul.languages li {
+  position: relative;
+  margin: 1px;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+ul.languages li::before {
+  content: "";
+  position: absolute;
+  border-color: #c25438;
+  border-style: solid;
+  border-width: 0 0.2em 0.18em 0;
+  height: 0.8em;
+  top: 1.3em;
+  left: 0.6em;
+  margin-top: -0.8em;
+  transform: rotate(45deg);
+  width: 0.3em;
+}
+
+ul.contact {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+
+ul.contact i {
+  color: #510402;
+}
+ul.contact li {
+  margin: 5px 10px;
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style.css.map */

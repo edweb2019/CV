@@ -1,0 +1,152 @@
+@import 'structure';
+
+$primary-red: #510402;
+$header-red: darkred;
+$list-orange: rgb(194, 84, 56);
+$grey-date: rgb(194, 192, 192);
+
+$font-secondary: 'Open Sans', sans-serif;
+$font-primary: 'Oswald', sans-serif;
+
+/* ---- H E A D E R ------ */
+
+.header {
+  & h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: $font-primary;
+  }
+
+  & p {
+    font-family: 'Gill Sans', sans-serif;
+    clear: left;
+  }
+}
+
+h2.card__presentation {
+  margin-top: -20px;
+  color: $header-red;
+  font-size: 1.2em;
+  font-family: $font-secondary;
+}
+
+img {
+  border-radius: 100%;
+  max-height: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* ---- M A I N ------ */
+
+.main {
+  padding: 0 20px;
+}
+
+article > div:not(:last-child), ul.languages > li:not(:last-child) {
+  border-bottom: 2px dashed $grey-date;
+}
+
+article {
+  & > h2 {
+    text-transform: uppercase;
+    color: $primary-red;
+    font-size: 2em;
+    font-family: $font-primary;
+    border-bottom: 2px solid gray;
+  }
+
+  & h3 {
+    font-weight: normal;
+    font-size: 1em;
+    font-family: $font-secondary;
+  }
+
+  & h4 {
+    font-weight: normal;
+    color: grey;
+    margin: -10px 0 0 0;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+  }
+}
+
+
+/*
+---------  A S I D E ------------
+*/
+
+ul.languages li, ul.tech li {
+  list-style-type: none;
+}
+
+ul.tech {
+  padding: 0 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+  justify-content: flex-start;
+}
+
+.tech {
+
+  & li {
+    border: 1px solid grey;
+    margin: 5px 3px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all .5s ease;
+
+    &:hover {
+      background-color: $grey-date;
+    }
+  }
+}
+
+ul.languages {
+  padding: 0;
+
+  & li {
+    position: relative;
+    margin: 1px;
+    padding: 0.5em 0.5em 0.5em 2em;
+  }
+
+  & li::before {
+    content: '';
+    position: absolute;
+    border-color: $list-orange;
+    border-style: solid;
+    border-width: 0 0.2em 0.18em 0;
+    height: 0.8em;
+    top: 1.3em;
+    left: 0.6em;
+    margin-top: -0.8em;
+    transform: rotate(45deg);
+    width: 0.3em;
+  }
+}
+
+
+ul.contact {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+
+ul.contact {
+  & i {
+    color: $primary-red;
+  }
+
+  & li {
+    margin: 5px 10px;
+    list-style-type: none;
+  }
+}

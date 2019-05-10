@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+}
+
+.main-center {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media all and (max-width: 900px) {
+    .main-center {
+        flex-wrap: wrap;
+    }
+}
+
+aside {
+    padding: 0 20px;
+}
+
+#content {
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 20px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+    padding: 20px 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
