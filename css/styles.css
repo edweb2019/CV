@@ -1,0 +1,190 @@
+body {
+	max-width: 50em;
+	margin: auto;
+	background-color: white;
+	/*margin-bottom: 20px;*/
+	/*padding: 1px 20px 10px 20px;*/
+	box-shadow: 0 2px 6px 0 #c3c3c3;
+
+}
+
+html {
+	overflow-y: scroll;
+	background-color: #f2f5f6;
+	color: #333;
+	margin:0;
+	font-size: 14px;
+	font-family: "Noto Sans", "Calibri";
+}
+
+h1, h2, h3 {
+	font-family: "Ubuntu";
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #1ca2e6;
+	transition: 0.3s;
+}
+
+hr {
+	background-image: linear-gradient(to right, #0aef7d, #1ca0e9);
+	height: 3px;
+	border: 0px;
+	margin-top: 2px;
+}
+
+td:first-child{
+	padding-right: 15px;
+}
+
+table {
+	margin-bottom: 5px;
+}
+
+
+/*------------- HEADER -------------*/
+header {
+	background-color: #082b3e;
+	display: flex;
+	color: #f2f5f6;
+	justify-content: space-between; 
+}
+
+header img {
+	height: 157px;
+	object-fit: cover;
+	width: 157px;
+	border-radius: 50%;
+	margin: auto auto;
+	/* border: 5px solid #540202; */
+}
+
+header div {
+	margin: auto 0;
+	width: 60%;
+	padding: 1em;
+}
+
+header h1 {
+	font-size: 50px;
+	margin: 2px 0;
+}
+header h3 {
+	margin: 2px 0;
+	color: #f2f5f6;
+}
+
+header p {
+	font-size: 14px;
+}
+
+header hr {
+	height: 6px;
+	margin-top: unset;
+}
+
+/*------------- ASIDE -------------*/
+aside {
+	display: flex;
+	justify-content: space-around;
+	background-image: linear-gradient(to right, #0aef7daa, #1ca0e9aa);
+	color: #082b3e;
+	font-weight: bolder;
+	padding: 20px 10px;
+	font-size: 15px;
+}
+
+aside i {
+	/*font-size: 34px;*/
+	margin: auto 0;
+	margin-right: 5px; 
+}
+/*------------- MAIN -------------*/
+main {
+	padding: 10px;
+	column-count: 2;
+	column-rule: 1px dotted #969b9c;
+}
+
+section {
+	margin: 16px 0;
+}
+
+
+h3 {
+	color: #135478; /*#09cc6b*/
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.date, td:first-child {
+	font-weight: bolder;
+}
+
+h4 {
+	margin-top: 2px;
+	margin-bottom: 4px;
+	font-style: italic;
+	color: #5a5a5a;
+	font-weight: normal;
+}
+
+#skills {
+	margin: 5px 0;
+}
+
+#skills span {
+	border: 1px solid #969b9c;
+	border-radius: 5px;
+	padding: 0 6px;
+	margin: 0 5px 5px 0;
+	display: inline-block;
+	box-shadow: 0 1px 1px 0 #c3c3c3;
+	background-color: #f2f5f6;
+	transition: 0.3s;
+}
+
+#skills span:hover {
+	background-color: #61dcca;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+/*------------- MEDIA QUERIES -------------*/
+@media screen and (max-width: 450px) {
+	main {
+		column-count: 1;
+		padding: 10px;
+	}
+
+	aside {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	header {
+		flex-direction: column;
+	}
+
+	header img {
+		margin-top: 5px;
+	}
+
+	header div {
+		width: unset;
+		text-align: center;
+	}
+}
