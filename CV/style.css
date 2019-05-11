@@ -1,0 +1,36 @@
+.bold {
+    font-weight: bold;
+}
+img{
+    max-width: 180px;
+    max-height: 200px;
+}
+.right{
+    float: right;
+}
+body{
+    margin:0 5%;
+}
+li{
+    display : list-item;
+    list-style-image : url(puce.gif);
+}
+h1{
+    text-align: center;
+}
+.Presentation {
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#box-2 div{
+    color:white;
+}
+#premier {
+    clear: right;
+}
+.inline div{
+    position: relative;
+    display: inline;
+}
