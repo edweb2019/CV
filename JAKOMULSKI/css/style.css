@@ -1,0 +1,150 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+ul {
+  list-style: none; }
+
+button,
+input,
+select,
+textarea {
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+img,
+audio,
+video {
+  height: auto;
+  max-width: 100%; }
+
+iframe {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0;
+  text-align: left; }
+
+@font-face {
+  font-family: "Icon";
+  src: url("../fonts/foundation-icons.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf"); }
+p,
+li {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+.title1 {
+  font-family: "Open Sans";
+  font-size: 3rem; }
+
+.title2 {
+  font-family: "Open Sans";
+  font-size: 2.5rem;
+  border-bottom: 3px #ff3333 solid;
+  margin-bottom: 20px; }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  min-height: 100vh;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem; }
+
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 2rem; }
+
+.item {
+  display: flex;
+  margin-bottom: 25px; }
+
+.item-date {
+  flex: 1; }
+
+.item-content {
+  flex: 3; }
+
+.item-status {
+  font-weight: bold; }
+
+.item-location {
+  color: #666666; }
+
+.icon-adress:before,
+.icon-phone:before,
+.icon-mail:before,
+.icon-linkedin:before {
+  font-family: "Icon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: inherit;
+  color: #ff3333; }
+
+.icon-adress:before {
+  content: "\f172"; }
+
+.icon-phone:before {
+  content: "\f1f8"; }
+
+.icon-mail:before {
+  content: "\f16d"; }
+
+.icon-linkedin:before {
+  content: "\f1d0"; }
+
+/*# sourceMappingURL=style.css.map */
