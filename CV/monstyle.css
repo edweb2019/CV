@@ -1,0 +1,108 @@
+div.page{
+    margin : auto;
+    font-size: 25px;
+    font-family: "Century Gothic";
+    padding-left: 20px;
+
+}
+
+div.infos{
+    height:190px;
+}
+img{
+    /*float:left;*/
+    display:inline-block;
+    width: auto;
+    max-height: 190px;
+    margin-left:10px;
+    margin-right: 220px; /* difficulté à aligner img+div au milieu de div.infos */
+
+}
+img + div{
+    display:inline-block;
+    text-align: center;
+    vert-align: middle;
+}
+p#prenom_nom{
+    font-size: 80px;
+    font-weight: bold;
+    margin:0px 0px;
+
+}
+div.bandeau{
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+
+    font-weight: bold;
+    margin:15px 50px 15px 10px;
+
+}
+
+div.section{
+    border-left: 3px solid #0489B1;
+    padding: 15px 10px;
+    margin:0px 10px;
+}
+
+h3.titre{
+    display: inline-block;
+    width: 35%;
+    color:#0489B1;
+    text-align: center;
+    text-decoration: underline;
+    margin:0px 0px;
+
+}
+hr{
+    display: inline-block;
+    width: 30%;
+    border-color: #0489B1;
+    border-style: solid;
+    border-width: 2px;
+}
+
+div.ligne{
+    /* vide mais peut être utile si on veut un style identique sur toutes les lignes */
+}
+div.ligne1{ /* description d'une ligne */
+    height:60px;
+}
+div.ligne2{ /* description de 2 lignes */
+    height:80px;
+}
+div.ligne3{ /* description de 3 lignes */
+    height:110px;
+}
+div.grande1{ /* grande description 1 */
+    height:170px;
+}
+div.grande2{ /* grande description 2*/
+    height:210px;
+}
+div.date{
+    float: left;
+    font-weight: bold;
+    color:#666f66;
+    width:30%;
+    height:100%
+}
+div.description{
+    width: 100%;
+    height:100%;
+    text-align: justify;
+    display: inline;
+}
+ul {
+    position: relative;
+    left: 80px;
+}
+a:link {
+    color: #12b1ac;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #12b1ac;
+
+}
