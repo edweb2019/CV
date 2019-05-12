@@ -1,0 +1,118 @@
+/* Pour tous */
+
+.page{
+    width : 800px;
+    height : 1000px;
+    font-size: 10px;
+    font-family : Calibri;
+    text-align: justify;
+}
+
+/* Encart de présentation en haut */
+.section-haute{
+    height : 250px;
+    width : 800px;
+    background-color:#5898B8;
+    color: whitesmoke;
+    /*display: block;*/
+}
+
+
+/* Polices */
+h1{
+    font-size: 30px;    
+}
+
+.titre{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.sousTitre{
+    font-size: 10.5px;
+    font-weight: bold;
+    color: black;
+}
+
+.sousTitre2{
+    font-size:14px;
+    color: white;
+}
+/* Sous cadres de l'encart de présentation */
+.nom-et-prenom{
+    position: relative;
+    left:25px;
+    /*text-indent: 25px;*/
+    width:550px;
+    top:50px;
+    border-bottom: 3px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-color: #1F497D;
+    border-style: solid;
+
+}
+
+
+.presentation{
+    position: relative;
+    font-size:14px;
+    left:25px;top:40px;
+    width: 500px;
+}
+
+.rapettise_image{
+    width : 100px;
+}
+
+.photo{
+    position: absolute;
+    top:70px;
+    left:660px;
+}
+
+/* Partie gauche */
+.section-gauche{
+    height : 750px;
+    width : 600px;
+    float : left;
+    color: grey;
+}
+
+.formation_dates{
+    float: left;
+    height : 140px;
+    width: 100px;
+}
+
+.formation_contenu{
+    float: inline-start;
+    width: 500px;
+
+}
+
+.expérience_dates{
+    float: left;
+    width: 100px;
+    height: 320px;
+}
+
+.expériences_contenu{
+    float: inline-start;
+    width: 500px;
+}
+
+/* Colonne de droite */
+.section-droite{
+    position: relative;
+    float : right;
+    height : 535px;
+    width : 200px;
+    background-color:#5898B8;
+    text-align: center;
+    clear: right;
+}
