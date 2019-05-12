@@ -1,0 +1,53 @@
+h1{ text-align: center}
+
+    .Presentation{text-align: center;
+        background-color:#447BBA;
+        float: left;
+        max-width: 33%;
+        padding: 4px;
+        }
+    
+    .Presentation>p {border:2px solid #447BBA;
+        padding :2px;
+        color: white;
+        display: inline;
+        }
+    .Presentation>a{color:white} 
+
+    .Hobbies_Assos{text-align:left;
+            display: inline;}
+    .Hobbies_Assos>h3{
+        background-color: white;
+        color: #447BBA;
+        padding: 2px;
+    }
+    .contenu_Asso{background-color: #447BBA;
+        color :white;}      
+    .detail_Asso{background-color: #447BBA;
+            color :white;
+            font-size:small}
+    
+    .Section{margin-left: 35%;
+            right:0px;
+            max-width:65%;
+            border:solid #447BBA 1px;}
+    .Section:not(h3){
+        padding: 2px;}
+    .contenu{color: #447BBA;
+        font-weight:bold}
+    .Section>h3 {background-color: #447BBA;
+        color:white;
+        padding: 2px;}
+    
+    .Section a{color: #447BBA;
+        font-style: smaller;}
+
+    .description{color: #447BBA;
+        font-style: smaller;
+        display:inline;
+        }
+
+    .description{font-size: small}
+    .detail{font-size: x-small}
+    img{height: 90%;
+    width: 90%;}
