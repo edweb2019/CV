@@ -1,0 +1,165 @@
+*{
+    font-size: 14px;
+    font-family: Georgia, Arial, Helvetica, 'Times New Roman', sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: steelblue;
+    text-transform: uppercase;
+    border-bottom: 3px solid steelblue;
+}
+
+dd{
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    color: whitesmoke;
+}
+
+dt{
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    color: whitesmoke;
+    font-variant: small-caps;
+}
+
+.entree{
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.sous-entree{
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.definition{
+    margin-bottom: 5px;
+}
+
+#page{
+    display: block;
+    width: 1000px;
+}
+
+#en-tete{
+    display: block;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: row;
+}
+
+#photo{
+    display: flex;
+    order: 1;
+    margin-left: 50px;
+}
+
+#info{
+    width: 750px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#info > p{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+#en-tete h2{
+    color: white;
+    text-transform: none;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid white;
+}
+
+#barre_gauche h2{
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 3px solid white;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#partie_centrale{
+    display: block;
+    width: 1000px;
+}
+
+#barre_gauche{
+    display: block;
+    float: left;
+    width: 250px;
+    height: 830px;
+    background-color: steelblue;
+}
+
+#barre_droite{
+    display: block;
+    float: right;
+    width: 700px;
+    height: 800px;
+}
+
+#competences{
+    margin-bottom: 30px;
+}
+
+#langues{
+    margin-bottom:30px;
+}
+
+#contact > p{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.section{
+    margin-bottom: 30px;
+}
+
+.cote_gauche{
+    float: left;
+    margin-top: 20px;
+}
+
+.cote_droit{
+    margin-left: 150px;
+}
+
+#formation .cote_gauche p{
+    margin-bottom: 60px;
+}
+
+#experience_pro .cote_gauche p{
+    margin-bottom: 105px;
+}
+
+#assos .cote_gauche p{
+    margin-bottom: 125px;
+}
+
+#experience_pro{
+    border: solid white;
+}
+
+#formation .cote_gauche p{
+    margin-bottom: 60px;
+}
