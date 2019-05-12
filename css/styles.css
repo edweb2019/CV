@@ -14,11 +14,11 @@ html {
 	color: #333;
 	margin:0;
 	font-size: 14px;
-	font-family: "Noto Sans", "Calibri";
+	font-family: 'Noto Sans', sans-serif;
 }
 
 h1, h2, h3 {
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	margin: 0;
 }
 
