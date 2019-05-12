@@ -1,0 +1,70 @@
+@font-face {
+    font-family: cursive_1;
+    src: url("Curves.ttf");
+}
+body{
+    margin: 50px 30px;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive_1;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+h2 {
+    background-color: #b8dcff;
+    padding: 5px;
+    margin: 20px 10px;
+    text-transform: uppercase;
+}
+
+h3{
+    margin-left: 30px;
+}
+
+p {
+    margin-left: 40px;
+    color: black;
+}
+
+.information{
+    background-color: #8fcbff;
+    border-top: 0px;
+    margin-top: 10px;
+    text-align:right;
+}
+
+img{
+    clear: both;
+    max-height: 180px;
+    max-width: 200px;
+    display:block;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+.cote{
+    background-color: #b8dcff;
+    height: auto;
+    width:400px;
+    position: relative;
+    border-right: 5px solid white;
+    margin-right: 20px;
+    float: left;
+}
+
+
+#siganture{
+    text-align: right;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    float: bottom;
+    position: fixed;
+    border-top: 1px solid black;
+}
