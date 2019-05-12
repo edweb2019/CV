@@ -1,0 +1,58 @@
+h1 {
+    text-align : right;
+    margin-right : 50px;
+    color : grey;
+    text-shadow:1px 1px 2px gray;
+    border-bottom: 2px solid grey;
+    padding : 10px;
+}
+
+h2 {
+    text-align : right;
+    margin-right : 50px;
+    color : darkgray;
+    text-shadow:1px 1px 2px lightgray;
+}
+
+h3 {
+    color : blue;
+    line-height : 10px;
+    margin: 60px;
+    font-size : 20px;
+}
+
+.coordonnées {
+    color : gray;
+    text-align : center;
+    margin: 5px;
+}
+
+p {
+    font-size : 16px;
+    font-weight : normal;
+    margin: 20px;
+    padding: 5px;
+}
+
+.image > img{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+a:hover {
+    color : blue;
+}
+
+a:link {
+    text-decoration:none;
+    color : black;
+}
+
+
+.bluerectangle {
+    background-color: blue;
+    height: 10px;
+    width : 50px;
+    margin: 20px;
+
+}
