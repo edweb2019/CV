@@ -1,0 +1,129 @@
+@font-face {font-family: "Futura Std Book";
+    src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot");
+    src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.svg#Futura Std Book") format("svg");
+}
+
+@font-face {font-family: "Freestyle Script";
+    src: url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.eot");
+    src: url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.svg#Freestyle Script") format("svg");
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 15%;
+    font-weight: normal;
+    font-family: "Freestyle Script";
+    font-size: 9ex;
+}
+
+h3{
+    font-family: "Futura Std Book";
+    font-size: 3ex;
+    font-weight: normal;
+}
+
+h4 {
+    font-family: "Futura Std Book",serif;
+    font-size: 2ex;
+    font-weight: normal;
+}
+
+h5 {
+    font-family: "Calibri",serif;
+    font-size: 3ex;
+    margin-bottom: 0%;
+    font-weight: normal;
+}
+
+.date{
+    font-size: 1.7ex;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.corps{
+    margin-right: 1%;
+    margin-left: 30%;
+    width: 70%;
+}
+
+.bandeau{
+    float: left;
+    width: 30%;
+    margin-right: 2ex;
+    padding-right: 1ex;
+    padding-left: 2ex;
+    margin-bottom: 10%;
+    background-color: #86a8a7;
+}
+
+.bandeau p{
+    font-size: 2ex;
+    font-family: "Calibri",serif;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.bandeau span{
+    margin-top: 0%;
+    font-family: "Calibri",serif;
+    font-size: 1.7ex;
+}
+
+.bandeau h3{
+    margin-bottom: 0%;
+    margin-top: 5ex;
+}
+
+.bandeau h6 {
+    margin-bottom: 1ex;
+    font-size: 2ex;
+    font-family: "Calibri", serif;
+}
+
+.souspartie{
+    font-family: "Calibri",serif;
+}
+
+.contenu span{
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.soustitre2{
+    color: #86a8a7;
+}
+
+#stage{
+    margin-top: 7%;
+}
+
+#formation{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+#interet1{
+    margin-top: 3ex;
+}
+
+#image{
+    padding-top: 3ex;
+    text-align: center;
+    margin-left: 0%;
+}
+
+img {
+    width: 25ex;
+}
