@@ -1,0 +1,337 @@
+
+/**************************************/
+/*          CORPS DU CV               */
+/**************************************/
+
+body{
+
+    /* Mise en place des limites du CV
+       J'ai choisi de ne pas utiliser des pourcentages pour
+       définir la largeur et la longueur de la page
+       consciemment.
+
+       On choisit une largeur de 900 px et un CV centré
+     */
+
+    width:900px;
+    height:1200px;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    /* Mise en place des bordures pour aider la mise en page*/
+    border:1px solid black;
+
+}
+
+/* Design*/
+ul{
+    list-style: none;
+}
+
+/**************************************/
+/* PARTIE HEADER DU CV (en haut du CV */
+/**************************************/
+
+header{
+
+    /* On utilise un fond bleu
+       et un texte blanc
+    */
+
+    background-color: #5898B8;
+    color:white;
+
+    /* Ajustements du block */
+
+    padding-bottom: 5px;
+
+    border-bottom:10px solid #395CA3;
+
+}
+
+#headerLeft{
+
+    /* On met ce block en inline-block avec le #header Right
+    pour les mettre sur la même ligne malgré les différences
+    de hauteur
+
+    On choisit ensuite pour le #headerLeft une largeur
+    de 70% du body
+     */
+
+    display:inline-block;
+    width:70%;
+
+    /* Ajustements du block */
+
+    margin-left:20px;
+}
+
+#headerRight{
+
+    /* On met ce block en inline-block avec le #headerLeft
+    pour les mettre sur la même ligne malgré les différences
+    de hauteur.
+
+    On choisit ensuite pour le #headerLeft une largeur
+    de 20% du body
+
+    Puis on colle le #headerLeft à droite;
+    */
+
+    display:inline-block;
+    width:20%;
+    float:right;
+
+    /* On place la photo et les éléments du headerRight
+    au centre
+     */
+
+    text-align:center;
+
+    /* Ajustements du block */
+
+    margin-right:25px;
+    padding-left:25px;
+    margin-top:15px;
+
+    /* Création de la ligne séparant les deux #headerLeft
+    et #headerRight
+     */
+
+    border-left:1px solid white;
+}
+
+/* AJUSTEMENTS SUR LES DIFFERENTS TITRES */
+
+h1{
+    margin:15px 0;
+}
+
+h2{
+    margin-bottom:10px;
+}
+
+h3{
+    /* Création de la ligne en dessous de "recherche de
+    stage */
+    width:500px;
+    border-top:1px solid white;
+
+    /* ajustements block */
+    margin-top:10px;
+    padding-top:10px;
+}
+
+
+/**************************************/
+/*          MES EXPERIENCES           */
+/**************************************/
+
+#experience{
+
+    /* On met l'expérience en inline-block
+   pour qu'elle puisse se trouver sur la
+   même ligne que la colonne de droite.
+
+   On met ce block à gauche
+
+   Puis on lui donne une largeur de 70%
+    */
+    display:inline-block;
+    float:left;
+    width:70%;
+
+
+}
+
+/* Design */
+#experience ul{
+    padding-left:0;
+}
+
+/* Design */
+h7{
+    font-size:1.4em;
+    color:#5898B8;
+    padding-left:130px;
+}
+
+#experience ul li ul li p{
+
+    /* On ajuste la largeur à 75%
+    de la section "experience
+    On met en display inline block
+    pour mettre le paragraphe sur la même
+    ligne que la date
+    On met en vertical-align: middle pour
+    centrer le paragraphe et la date verticalement
+     */
+    width:75%;
+    display:inline-block;
+    vertical-align: middle;
+
+    /* Design*/
+    padding-left:10px;
+}
+
+h9{
+    /* On ajuste la largeur à 19%
+    de la section "experience
+    On met en display inline block
+    pour mettre le paragraphe sur la même
+    ligne que la date
+    On met en vertical-align: middle pour
+    centrer le paragraphe et la date verticalement
+     */
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+
+    /* Design */
+    width:19%;
+    text-align:center;
+}
+
+/**************************************/
+/*          SKILLS (barre de droite)           */
+/**************************************/
+
+#skills{
+
+    /* On met l'expérience en inline-block
+    pour qu'elle puisse se trouver sur la
+    même ligne que la colonne de gauche.
+
+    On met ce block à droite
+
+    Puis on lui donne une largeur de 29%
+    */
+    display:inline-block;
+    float:right;
+    width:29%;
+
+    /* Design */
+
+    color:white;
+    background-color: #5898B8;
+
+}
+
+/* Design */
+#skills ul ul{
+    list-style:circle;
+}
+
+/* Design */
+#skills>ul{
+    padding-left:0;
+}
+
+h4{
+    /* Block centré 80% largeur */
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+
+    /* texte centré dans le block + design */
+    text-align:center;
+    color:white;
+    font-size:1.25em;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+
+}
+
+/**************************************/
+/*          ME CONTACTER           */
+/**************************************/
+
+#meContacter{
+
+    /* On met l'expérience en inline-block
+    pour qu'elle puisse se trouver sur la
+    même ligne que la colonne de gauche.
+
+    On met ce block à droite
+
+    Puis on lui donne une largeur de 29%
+    */
+    display:inline-block;
+    float:right;
+    width:29%;
+
+    /* Design */
+
+    background-color: #E6E6E6;
+
+
+    /* On ajuste la hauteur */
+    height:273px;
+    padding-top:30px;
+
+    /* On aligne le texte
+     */
+    text-align:center;
+
+    /* Design */
+    color:#5898B8;
+    font-size:1.1em;
+
+
+}
+
+/* On enlève le padding sur la liste non ordonnée */
+#meContacter>ul{
+    padding-left:0;
+
+}
+
+/* Design */
+#meContacter ul li{
+    padding-bottom:15px;
+}
+
+/* Design */
+a:visited{
+    color:#5898B8;
+}
+
+/* Design */
+h6{
+    font-size:1.15em;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+
+/**************************************/
+/*              GREYBAND              */
+/**************************************/
+
+
+/* Design de la bande de gauche */
+#greyBand {
+
+    /* On la positionne en absolute pour
+    qu'elle soit dans le container body
+
+    Puis on choisit la hauteur de la bande
+    à 100% du container body
+
+    et la largeur comme on veut
+     */
+    position: absolute;
+    width: 120px;
+    height: 920px;
+
+    /* On met la bande à l'arrière plan*/
+    z-index: -1;
+
+    /* design */
+    background-color: #E6E6E6;
+}
+
