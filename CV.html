@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- **** H E A D **** -->
+<head>	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>CV</title>
+
+    <style>
+        body{
+            word-wrap: break-word;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+        }
+        #EnTete{
+            border: 2px solid darkblue ;
+            background-color: darkslateblue;
+            color : white;
+            padding: 0px;
+            margin-bottom: 5px;
+            margin-right: 5px;
+            text-align: center;
+        }
+        #PremièreColonne, #SecondeColonne{
+            display: inline-block;
+            vertical-align: top;
+            max-width: 47%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            border-right: 3px solid darkblue;
+            border-left: 3px solid darkblue;
+            border-bottom: 3px solid darkblue
+        }
+        #SecondeColonne{
+            position: absolute;
+            right: 3px;
+        }
+        #PremièreColonne{
+            position: absolute;
+            left : 3px;
+        }
+        h1{
+            display: inline-block;
+            height: auto;
+            width: auto;
+        }
+        h2{
+            color: darkblue;
+            border-bottom: 3px solid darkblue; 
+        }
+
+        img{
+            float : left;
+            height: 100px;
+            width: 100px;
+            border-radius: 35px;
+            margin: 20px 50px;
+        }
+
+        .GroupeBinaire > p {
+            display: inline-block;
+        }
+        .NomLangues, .NomVoyage, .CtC{
+            font-weight: bold;
+            width : 100px;
+            margin-right: 40px;
+        }
+        li{
+            display: list-item;
+            list-style-image: url(puce.gif);
+        }
+        .NomVoyage{
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .Paragraphe {
+            font-size: 12px;
+        }
+
+        .NomProjet{
+            font-weight: bold;
+        }
+
+        .RS > img{
+            display: inline-block;
+            height: 20px;
+            width : 20px;
+            border-radius: 0px;
+            vertical-align: middle;
+        }
+        .RS{
+            position: relative;
+        }
+        .RS > p{
+            font-weight: bold;
+            padding-left : 30px;
+            margin-bottom: 20px;
+        }
+        .RS >img{
+            float : left;
+            vertical-align: top;
+
+        }
+        .Titre{
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<!-- **** B O D Y **** -->
+
+<body>
+    <div id= "EnTete">
+        <img src="profil.jpg" alt="Photo de profil">
+        <h1>
+            Romain Jorge Do Marco
+        </h1>
+        <p>Emploi recherché : Stagiaire</p>
+    </div>
+
+    <div id = "PremièreColonne">
+        <div class = "Paragraphe">
+            <h2>
+                Informations personnelles et contacts
+            </h2>
+            <p> Français </p>
+            <p>Né le 28/02/1998</p>
+            <p>rom.jdm@gmail.com</p>
+            <p>06 29 57 31 87</p>
+        </div>
+
+        <div class = "Paragraphe">
+            <h2>
+                Expériences professionnelles
+            </h2>
+            <div>
+                <p classe ="Titre">Appui au pilote national de la Politique d'Entretien de la Végétation sous les lignes</p>
+                <p classe = "organisation"> RTE Réseau de transport d'électricité</p>
+                <p classe = "lieu"> La Défense, France</p>
+            </div>
+            <div classe = "date">De Janvier 2019 à Février 2019</div>
+            <ul classe = "description">
+                <li>Analyse de données</li>
+                <li>Rédaction d'un cahier des charges</li>
+                <li>Réalisation d'un programme de traitement de données</li>
+            </ul>
+        </div>
+
+        <div class = "Paragraphe">
+            <h2>
+                Diplômes et Formations
+            </h2>
+            <p>
+                <p classe ="titre">Diplôme d'ingénieur généraliste de l'Ecole Centrale de Lille</p>
+                <p classe = "organisation"> Ecole Centrale de Lille</p>
+                <p classe = "lieu"> Villeneuve-d'Ascq,France</p>
+            </p>
+            <div classe = "date">Depuis Septembre 2019</div>
+            <ul classe = "description">
+                <li>
+                    <p class = "NomProjet"> Projet Etudiant :</p>
+                    <p>Conception et prototypage d'une typologie de maison modulaire portable et autonome 4.0</p>
+                </li>
+                <li>
+                    <p class = "NomProjet"> Cours :</p>
+                    <p>Mécanique des milieux continus, Mécanique analytique, Mécanique des Mécanismes,Phénomènes de transport, Algorithmie, Biomécanique,  Électronique de puissance et Physique Statistique</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class = "Paragraphe">
+                <h2>
+                    Langues
+                </h2>
+                <div class = "GroupeBinaire">
+                    <p class = "NomLangues">Français</p>
+                    <p> Langue Maternelle</p>
+                </div>
+                <div class = "GroupeBinaire">
+                        <p class = "NomLangues">Anglais</p>
+                        <p> Professionnel</p>
+                </div>
+                <div class = "GroupeBinaire">
+                        <p class = "NomLangues">Espagnol</p>
+                        <p> Scolaire (Niveau B1)</p>
+                </div>
+                <div class = "GroupeBinaire">
+                        <p class = "NomLangues">Japonais</p>
+                        <p> Notions</p>
+                </div>
+                <div class = "GroupeBinaire">
+                        <p class = "NomLangues">Chinois</p>
+                        <p> Notions</p>
+                </div>
+            </div>
+
+            <div class = "Paragraphe">
+                    <h2>
+                        Voyages
+                    </h2>
+                    <div class = "GroupeBinaire">
+                        <p class = "NomVoyage">Tateyama, Chiba, Japon</p>
+                        <p> Séjour linguistique de 9 semaines avec </br>stage en hôtellerie de luxe réalisé</p>
+                    </div>
+                    <div class = "GroupeBinaire">
+                        <p class = "NomVoyage">Tokyo et Kyoto, Japon</p>
+                        <p> Séjour de découverte culturelle de 2 semaines</p>
+                    </div>
+                    <div class = "GroupeBinaire">
+                        <p class = "NomVoyage">Londres, Angleterre</p>
+                        <p> Séjour linguistique de 1 semaine</p>
+                     </div>
+                </div>
+    </div>
+
+    <div id = "SecondeColonne">
+        <div class = "Paragraphe">
+            <h2>
+                Atout
+            </h2>
+            <div class = "GroupeBinaire">
+                <p class = "NomVoyage">Calme</p>
+                <p> Haute capacité à la gestion du stress mise à <br>l'épreuve par la formation et par les stages</p>
+            </div>
+            <div class = "GroupeBinaire">
+                <p class = "NomVoyage">Sens de l'initiative</p>
+                <p> Propose des solutions complémentaires <br>ou alternatives à un projet. <br>Capacité mise à l'épreuve par les stages</p>
+            </div>
+        </div>
+
+        <div class = "Paragraphe">
+            <h2>
+                Compétences
+            </h2>
+            <div class = "GroupeBinaire">
+                <p class = "NomVoyage">Modélisation</p>
+                <p> Capacité à comprendre, à synthétiser et à transcrire<br> un système dans sa compléxité sous forme<br> de graphique et de tableaux par SysML</p>
+            </div>
+            <div class = "GroupeBinaire">
+                <p class = "NomVoyage">Gestion de projet</p>
+                <p> Connaissances des différents types de gestion d'un <br>projet et capacité à les mettre en place<br> via les outils adéquats</p>
+            </div>
+            <div class = "GroupeBinaire">
+                <p class = "NomVoyage">Travail d'équipe</p>
+                <p> Capacité à travailler en équipe mise à l'épreuve par les<br> projets étudiants et les stages</p>
+            </div>
+
+            <div class = "Paragraphe">
+                <h2>
+                    Compétences informatiques
+                </h2>
+                <div class = "GroupeBinaire">
+                    <p class = "NomVoyage">Traitement du signal</p>
+                    <p> Connaissances des algorithmes de traitement <br>et d'analyse de signaux par Python</p>
+                </div>
+                <div class = "GroupeBinaire">
+                    <p class = "NomVoyage">Machine Learning</p>
+                    <p> Maîtrise des algorithmes d'apprentissage sous Python</p>
+                </div>
+                <div class = "GroupeBinaire">
+                    <p class = "NomVoyage">Programmation Orientée Objet</p>
+                    <p> Connaissance basique via les langages Java et Python</p>
+                </div>
+                <div class = "GroupeBinaire">
+                    <p class = "NomVoyage">Base de données</p>
+                    <p> Connaissances en création, manipulation, traitement<br> et analyse de base données par Python et Java</p>
+                </div>
+                <div class = "GroupeBinaire">
+                    <p class = "NomVoyage">Technologie Web 2.0</p>
+                    <p> Connaissances en HTML5, CSS3 et JavaScript<br> pour la réalisation de page Web</p>
+                </div>
+                <div class = "GroupeBinaire">
+                    <p class = "NomVoyage">Microsoft Office</p>
+                    <p> Maîtrise des logiciels Word, Excel, Publisher<br> et Outlook ainsi que du langage<br> Visual Basic for Applications (VBA)</p>
+                </div>
+            </div>
+    </div>
+
+
+
+</body>
