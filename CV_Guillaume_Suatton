@@ -1,0 +1,85 @@
+<HTML>
+    <HEAD>
+    <TITLE>CV Guillaume Suatton</TITLE>
+
+      <style>
+        .titre{
+          /*text-decoration:underline;*/
+          border-bottom: 10px solid darkgreen;
+          padding-bottom: 3px;
+          padding-left: 20px;
+        }
+        .cadre2 {
+          border-style: solid;
+          border-color: black;
+          border-width: 2px;
+        }
+      </style>
+    </HEAD>
+    <BODY>
+    <H1>C.V</H1>
+    <IMG SRC="Photo.png" height="150" width="150"/>
+    <br/>
+    <br/>
+    <div id="id1" class="cadre">
+      <p class="titre"><b>Guillaume Suatton</b></p>
+      <div class="contenu">
+      </div>
+    </div>
+    <br/> E-mail : guillaume.suatton@centrale.centralelille.fr
+    <br/>
+    <br/><u> Experiences</u>
+    <br/>
+    <br/>
+    <div id="id2" class="cadre2">
+      <p class="titre2"></p>
+      <div class="contenu">
+        <br/> 2017-2018 : Projet G1-G2 en partenariat avec l'entreprise Goaland
+        <br/>Goaland offre des solutions dediees a la gestion, la diffusion et la publication de donnees produits
+        <br/>Notre projet consistait a ameliorer l information produit en se servant d intelligence artificielle.
+        <br/>J ai eu des missions de programmation ainsi que de gestion de projet.
+        <br/>
+        <br/>2018 : Stage d'observation - Farm (Bruxelles)
+        <br/>
+        <br/>
+        <br/>
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <br/><u> Diplomes</u>
+    <br/>
+    <br/>
+    <div id="id3" class="cadre2">
+      <p class="titre2"></p>
+      <div class="contenu">
+        <br/> 2017-2020 : Centrale Lille
+        <br/> * Mathematiques : Analyse, modelisation aleatoire et calcul scientifique
+        <br/> * Informatique : Programmation en Java et utilisation de UML
+        <br/> * Optimisation et Analyse Prescriptive, Intelligence Collaborative, Traitement du signal
+        <br/> * MOOC Gestion de Projet - Remi Bachelet
+        <br/>
+        <br/> 2014-2017 : CPGE MP
+        <br/>
+        <br/>
+        <br/>
+      </div>
+    </div>
+    <br/>
+    <br/><u> Loisirs</u>
+    <br/>
+    <br/>
+    <div id="id4" class="cadre2">
+      <p class="titre2"></p>
+      <div class="contenu">
+        <br/> Football
+        <br/> Musique
+        <br/>
+        <br/>
+        <br/>
+      </div>
+    </div>
+
+
+    </BODY>
+</HTML>
