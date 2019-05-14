@@ -1,0 +1,50 @@
+body{
+			padding: 50px 30px;
+
+		}
+
+		h1{
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+        h2{
+            text-align:center;
+        }
+
+
+		img{
+			max-block-size: 150px;
+            transform: rotate(90deg);
+            position:absolute;
+            top: 60px;
+            right: 10px;
+            float: right; 
+		}
+
+        .section{
+            color:blueviolet;
+            border-bottom: 2px solid blueviolet;
+		    padding: 5px;
+            font-size:x-large;
+            font-weight:bold;
+        }
+
+        .titre{
+            font-weight:bold;
+            font-size:larger;
+            }
+
+        .text{
+            font-style:italic;
+        }
+
+		#signature{
+			position:fixed;
+			background-color: rgba(0,0,0,0.5);
+			bottom:0px;
+			right: 5px;
+			left: 5px;
+			text-align: right;
+			border-top: 1px solid white;
+			}
