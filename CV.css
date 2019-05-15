@@ -1,0 +1,111 @@
+body
+{
+	background-color: #DAD9D5;
+}
+img
+{	
+	max-height: 150px;
+	position: absolute;
+	left: 20px;
+	top: 10%;
+}
+#boite_zero
+{
+	height: 15px;
+	width: 625px;
+	background-color: white;
+}
+#premiere_boite
+{
+	position: relative;
+	background-color: #0E0B42;
+	border-left: solid 25px #FFB900;
+	height: 190px;
+	width: 600px;
+	margin: 0px;
+}
+#premiere_boite .rens
+{
+	font-size: 8px;
+	color: white;
+	position: absolute;
+	left: 150px;
+	top: 35%;
+}
+#nom
+{
+	position: absolute;
+	left: 150px;
+	top: 9%;
+	font-size: 18px;
+	color: white;
+	font-weight: 600;
+}
+#Moi
+{
+	position: absolute;
+	bottom: 0px;
+	right: 30px;
+	font-size: 18px;
+	color: white;
+	font-weight: 600;
+}
+#deuxieme_boite
+{	
+		background-color: white;
+		height: 540px;
+		width: 625px;
+		position: relative;
+}
+#LeC
+{
+	position: relative;
+	width: 600px;
+	font-size: 10px;
+}
+.texte
+{
+	position: relative;
+	left: 45px;
+	font-size: 10px;
+}
+.droite
+{
+	position: absolute;
+	left: 300px;
+	right: 65px;
+	top: 50px;
+}
+#FeD
+{
+	position: relative;
+	width: 600px;
+}
+#EP
+{
+	position: relative;
+	width: 600px;
+}
+#CdI
+{
+	position: relative;
+	width: 600px;
+}
+.titre
+{
+	text-align: center;
+	font-size: 16px;
+	margin-left: 25px;
+	margin-right: 0px;
+	border-bottom: 3px dashed #FFB900;
+	color: #0E0B42;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top: solid white 20px;
+}
+
+
+
+
+
