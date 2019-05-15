@@ -1,0 +1,27 @@
+.content{
+  display:flex;
+}
+
+body{
+  border: 1px solid black;
+  margin:0% 20%;
+  font-family: 'Martel', serif;
+}
+
+.titre{
+  text-align:center;
+}
+
+.rubrique{
+  color: aqua;
+  font-style: oblique;
+}
+
+header h1{
+  border-bottom : aqua 9px solid;
+}
+
+.titre {
+  padding-left: 30px;
+  padding-right:30px;
+}
