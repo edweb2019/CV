@@ -1,0 +1,115 @@
+/*
+    Fiche de style par Thomas BONNARDEL
+    Dernière modification : 11/05/19
+ */
+
+#conteneur {
+    background-color: #fafafa;
+    margin: 30px 60px;
+}
+
+#nom, h5, .titre-categorie {
+    /* Définition de la police utilisée pour les titres */
+    font-family: Verdana;
+}
+
+.description, li {
+    /* définition de la police utilisée pour les descriptions */
+    font-family: Georgia;
+}
+
+.contact div {
+    /* Définition de la police utilisée pour le pied de page */
+    font-family: Verdana;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.bloc-principal {
+    /* Concerne l'en-tete, les deux blocs de contenu (respectivement bloc-gauche et bloc-droit) et le pied de page */
+    margin: 0px 40px;
+}
+
+
+/* *************** EN-TETE *************** */
+#en-tete {
+    margin-bottom: 70px;
+    height: 140px;
+    background-color: #306FC0;
+}
+
+#photo-profil {
+    padding: 10px;
+    max-width: 120px;
+    max-height: 120px;
+    float: left;
+}
+
+#nom {
+    padding-top: 15px;
+    text-align: right;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* *************** CONTENU *************** */
+
+#bloc-gauche {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    position: sticky;
+    top: 0px;
+}
+
+#bloc-droit {
+    width: 65%;
+    display: inline-block;
+}
+
+.titre-categorie {
+    font-size: 28px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: solid #306FC0 6px;
+}
+
+.item h5 {  /* Sous-titre des différentes catégories */
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+
+.description, ul {
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+
+ul {
+    list-style-type: "\002714";
+}
+
+
+/* *************** PIED DE PAGE *************** */
+#pied-page {
+    margin-top: 70px;
+    height: 80px;
+    border-top: solid #306FC0 3px;
+    padding-top: 15px;
+}
+
+.contact {
+    display: inline-block;
+    width: 33%;
+}
+
+.contact-image {
+    padding: 5px;
+    max-width: 35px;
+    max-height: 35px;
+}
