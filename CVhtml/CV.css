@@ -1,0 +1,135 @@
+body{
+display : flex;
+flex-direction : column;
+}
+
+header {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info{
+  display : flex;
+  flex-direction: column;
+  flex : 1;
+  align-items: center;
+}
+
+h1,h2,h3,.date,.pop{
+  color : #539DF4;
+}
+
+#photo{
+  max-width: 150px;
+  max-height: 150px;
+  height : auto;
+  width: auto;
+}
+
+.link{
+  display : flex;
+  align-self: flex-start;
+  align-items: center;
+}
+
+.icon{
+  max-height: 40px;
+  margin : 5px 7px;
+}
+
+#intro{
+  margin : 20px;
+  width : 60%;
+  text-align: left;
+  padding-left: 15px;
+  border-left : 2px #539DF4 solid;
+}
+
+main{
+  display : flex;
+}
+
+section{
+  display : flex;
+  flex-direction: column; 
+}
+
+article{
+  margin : 0px;
+  padding : 0px 15px;
+}
+
+ul{
+  width : 80%
+}
+
+#cursus h2{
+  border-bottom: 2px #539DF4 solid
+}
+
+#cursus li{
+  padding-bottom: 5px
+}
+
+#cursus h3{
+  margin : 0px 3px;
+  padding-bottom: 5px
+}
+
+
+#skills{
+  background: #A1CCFF;
+  width : 40%;
+  color : white;
+}
+
+#skills h2 {
+  color : white;
+  border-bottom: 2px white solid;
+}
+
+li.language{
+  list-style: none;
+  margin : 0px;
+  padding : 5px;
+  display : flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.language >img {
+  width : 40px;
+  height : 40px;
+  margin-right : 15px;
+}
+
+#wordcloud{
+  width : 100%;
+  height : auto;
+}
+
+#hobbies{
+  display : flex;
+  align-items: flex-start;
+  justify-content: space-evenly
+}
+
+#hobbies>div{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex : 1;
+}
+
+#hobbies p{
+  margin: 0px;
+  padding : 5px 0px;
+}
+
+#hobbies img{
+  width : 40px;
+}
