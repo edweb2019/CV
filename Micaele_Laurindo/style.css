@@ -1,0 +1,104 @@
+
+h4 span#cor1{
+    color: slategray;
+}
+h4 span#cor2{
+    color: #808080;
+    font-weight: 100;
+}
+.corpo{
+    float: center;
+    width: 910px;
+    padding: none;
+    margin: 0px 300px;
+    /*margin: 50px;*/
+    background: white;
+}
+
+h2{
+    color: #002752;
+
+}
+
+.left_area h2{
+    border-bottom: 0.5px solid #002752;
+}
+
+h3{
+    color: lightslategrey;
+}
+
+p{
+    color: grey;
+}
+
+.title p{
+    color: white;
+}
+
+.title{
+    background-position-x: fixed;
+    height: 230px;
+    background: linear-gradient(#002752, #9fcdff,#002752);
+    border: 1px double #002752;;
+    color: white;
+    font-family: "Agency FB";
+    font-weight: 100;
+    font-size: 15pt;
+
+}
+
+a{
+
+    color: white;
+}
+
+
+.photo img{
+    float: left;
+    border-radius: 100%;
+    height: 240px;
+    border: 1pt solid #002752;;
+
+}
+
+.infos_left {
+    float: left;
+    margin: 10px 60px 15px 20px;
+    line-height: 1.5;
+
+}
+
+.infos_right {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.right_area {
+    float: right;
+    width: 280px;
+    height: 1126px;
+
+    background: rgba(129,168,204,0.15) ;
+    padding-left: 10px;
+    font-family: calibri;
+}
+
+.right_area p{
+    color: black;
+}
+
+
+.left_area {
+    float: left;
+    width: 600px;
+
+    font-family: Calibri;
+    padding-left: 10px;
+    background: linear-gradient(white 20%, rgba(129,168,204,0.2) 150%);
+}
+
+.clear {clear: both;}
+
+
