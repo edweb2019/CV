@@ -1,0 +1,54 @@
+h1{
+    text-align: center; /*On centre le titre de la page*/
+}
+
+body{                           /*On règle les paramètres qui ne concernent que la page*/
+    background-color: #060a00;
+    font-family: 'Titillium Web';
+    color : whitesmoke;
+}
+
+.Section{
+    /*On règle les paramètres relatifs aux différentes sections du CV*/
+    border : 5px dashed ghostwhite;
+    border-radius: 20px;
+    width:45%;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 20px;
+    border : 2px solid black;
+    border-radius: 20px;   /* On arrondit les coins de la bordure*/
+    background-color: lightgrey;
+    display : inline;
+    color: black;
+    text-align: center;
+    padding: 3px;
+}
+
+.Section:hover h2{
+    background-color: white;
+}
+
+.Section:hover{
+    /*On règle les paramètres relatifs aux différentes sections du CV*/
+    border : 5px dashed yellow;
+}
+
+#coord {
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    text-align : center; /* On aligne le texte au centre*/
+    padding : 6px;
+    width:45%;
+    position:fixed;
+    right: 5px;
+}
+
+
+.droite{   /* On fait flotter l'image de sorte à ce que le texte qui la suit s'écoule autour d'elle*/
+    float:right;
+}
+
