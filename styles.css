@@ -1,0 +1,64 @@
+body{
+	font-family: Arial;
+	width: 1280px;
+}
+
+#header{
+	background-color: black;
+	color: white;
+	font-size: 26;
+	height:30px;
+	padding-left: 5px;
+	margin-left: 0px;
+
+}
+#headerL{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 16;
+}
+
+#subheader{
+	color: #1a1a52;
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+#duration{
+	font-style:italic;
+	margin-left: 40px;
+	font-size: 12px;
+
+}
+#name{
+	font-size: 40px;
+	text-align: center;
+	vertical-align: center; 	
+
+}
+#esquerda {
+	float: left;
+	background-color: #1a1a52;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+	}
+	
+#direita {
+	float: right;
+	width: 79%;
+	margin-left: 1px;
+
+}
+
+#texto{
+	margin: 10px;
+
+}
+
+#imagemgauche{
+	float:left;
+	padding-right: 5px;
+}
